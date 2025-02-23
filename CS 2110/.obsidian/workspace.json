@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "72f45385a9aac198",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca6080d8dc4cd1b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fea01e9c9566142",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS Final Study Sheet/Prelim 2 Study Review.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Prelim 2 Study Review"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "93d7dc9d7683b14e",
+    "type": "split",
+    "children": [
+      {
+        "id": "707ce5bed1758520",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9b896c8a5d1088c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4eceb74b21fe1562",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "behavior",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "967a0954105b6a4f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 237.5
+  },
+  "right": {
+    "id": "3aad8dfab0d964ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "c95b9650d1497a6e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7444d53166824a2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Lecture 23 (Graph Traversals)/Lecture 23.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Lecture 23"
+            }
+          },
+          {
+            "id": "882631880b30c762",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Lecture 23 (Graph Traversals)/Lecture 23.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Lecture 23"
+            }
+          },
+          {
+            "id": "8954b277f4eaa160",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "810c997a72c3e24a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lecture 23 (Graph Traversals)/Lecture 23.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Lecture 23"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1fea01e9c9566142",
+  "lastOpenFiles": [
+    "CS Final Study Sheet/Prelim 1 Study Review.md",
+    "CS Final Study Sheet/Additional Final Material.md",
+    "CS Final Study Sheet/Prelim 2 Study Review.md",
+    "Lecture 26 (Heaps)/Heaps.md",
+    "Lecture 16 (Sorting)/Lecture 16.md",
+    "Lecture 15 (Loop Invariants)/Lecture 15.md",
+    "CS Final Study Sheet/Images/Screenshot 2024-12-10 at 10.56.23 PM.png",
+    "The Java Ecosystem/Java Ecosystem.md",
+    "CS Final Study Sheet/Images/Screenshot 2024-12-10 at 2.49.12 PM.png",
+    "CS Final Study Sheet/Images/Screenshot 2024-12-10 at 10.35.12 PM.png",
+    "CS Final Study Sheet/Images/Screenshot 2024-12-10 at 10.32.44 PM.png",
+    "CS Final Study Sheet/Images/Screenshot 2024-12-10 at 10.31.44 PM.png",
+    "Lecture 23 (Graph Traversals)/Lecture 23.md",
+    "Lecture 22 (Graphs)/Lecture 22.md",
+    "CS Final Study Sheet/Images/Screenshot 2024-12-10 at 10.10.04 PM.png",
+    "CS Final Study Sheet/Images/Screenshot 2024-12-10 at 10.07.37 PM.png",
+    "Lecture 25 (Graph Exercises)/Lecture 25.md",
+    "CS Final Study Sheet/Images/Screenshot 2024-12-10 at 9.31.47 PM.png",
+    "Lecture 26 (Heaps)/Screenshot 2024-12-10 at 9.18.35 PM.png",
+    "CS Final Study Sheet/Images/Screenshot 2024-12-10 at 8.49.48 PM.png",
+    "Lecture 17 (Hashtables)/Lecture 17.md",
+    "Lecture 13 + 14 (Trees)/Lecture 13 + 14.md",
+    "Lecture 24 (Shortest Paths)/Lecture 24.md",
+    "Lecture 11 (Efficiency)/Lecture 11.md",
+    "Untitled.md",
+    "CS Final Study Sheet/Images",
+    "THERE ARE TOO MANY PEOPLE AT THIS GODDAMN TIME.md",
+    "Lecture 6 (Inheritance)/Lecture 6.md",
+    "().md",
+    "Lecture 4 (Specifications, testing)/Lecture 4.md",
+    "Lecture 2 (Objects)/Lecture 2.md",
+    "Lecture 3 (Class Invariants + Encapsulation)/Lecture 3.md",
+    "Lecture 1 (Static typing)/Lecture 1.md",
+    "Lecture 5 (Interfaces, subtyping)/Lecture 5.md",
+    "CS Final Study Sheet",
+    "The Java Ecosystem",
+    "Java Ecosystem",
+    "Lecture 21 (Synchronization)/Lecture 21.md",
+    "Lecture 26 (Heaps)",
+    "Lecture 18 + 19 (GUIs)/Lecture 18 + 19.md",
+    "Lecture 25 (Graph Exercises)",
+    "Lecture 24 (Shortest Paths)",
+    "Untitled.canvas",
+    "Lecture 23 (Graph Traversals)",
+    "Lecture 22 (Graphs)",
+    "Lecture 21 (Synchronization)"
+  ]
+}

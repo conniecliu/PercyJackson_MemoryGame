@@ -1,0 +1,58 @@
+<!DOCTYLE HTML>
+    <html>
+
+    <head>
+        <title>Match Game</title>
+        <style>
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="Match_Game.css" />
+        <link href="https://fonts.cdnfonts.com/css/windlass" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+        <script src="Match_Game.js"></script>
+
+
+    </head>
+
+    <body>
+
+
+        <div class="introduction">
+            <h2>Welcome to the...</h2>
+            <h1>Percy Jackson<br>Match Game!</h1>
+        </div>
+
+
+
+
+        <div class="instructions">
+            <h2 id="question">Can you match the demigods?</h2>
+            <p>Click on one of the 16 cards below. Each card will flip over and reveal a character from Percy Jackson.
+                Your job is to try your best and match it with another one through guessing and memorizing. If you fail
+                to match one pair of characters, the cards will flip over once more and you try again. If you suceed,
+                you proceed. The score represents how many times you click on one of the 16 cards. I wish you luck!</p>
+
+        </div>
+
+        
+
+        <div class="container">
+
+            <div class="status">
+                <h2>Score: <span id="score">0</span></h2>
+                <h3 id="comparisonResult">Right? Or Wrong?</h3>
+                <h2 id="result">Let's get started!</h2>
+                <button onclick="restartGame();" id="restartGame">Restart</button>
+            </div>
+
+            <div class="parent-div" id="parent-div">
+            </div>
+        </div>
+
+
+
+    </body>
+
+    </html>

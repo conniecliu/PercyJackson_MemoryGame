@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Black and Red Game!</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+  </style>
+
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/cheque');
+  </style>
+  <script src="script.js"></script>
+</head>
+
+<body onload="initialize()">
+  <div class="topnav">
+    <a href="index.html">Instructions</a>
+    <a class="active" href="game.html">Game</a>
+  </div>
+
+  <h1 id="game status">Let's Begin!</h1>
+  <h2>Turn: <span id="turn-id">[ ]</span></h2>
+  <h2 id="dialogue" style="font-size:30px;">You, the player, will roll the dice first. Click "Roll!"</h2>
+
+
+  <div class="grid-container">
+    <div class="grid-item" id="user-log">Log <p id="user logging">...</p>
+    </div>
+    <div class="grid-item" id="screen">UwU 
+      <p>Red: <span id="red roll results"></span></p>
+      <p>Black: <span id="black roll results"></span></p>
+    </div>
+    <div class="grid-item" id="computer-log">Log <p id="computer logging">...</p>
+    </div>
+    <div class="grid-item" id="user-pile">
+      Pile
+      <div class="token">
+        <img src="images/btoken.png" width="70" height="90"> X
+        <span id="pbtoken"></span>
+        <br />
+        <img src="images/rtoken.png" width="70" height="90"> X
+        <span id="prtoken"></span>
+      </div>
+    </div>
+    <div class="grid-item" id="choices">
+      Choices
+      <div>
+        <button class="button" id="op1"
+          title="Add to your red pile and remove from your opponent’s black pile">Op1</button>
+        <button class="button" id="op2"
+          title="Add to your black pile and remove from your opponent’s red pile">Op2</button>
+        <button class="button" id="op3"
+          title="Remove from your red pile and add to your opponent’s black pile">Op3</button>
+        <button class="button" id="op4"
+          title="Remove from your black pile and add to your opponent’s red pile">Op4</button>
+      </div>
+      <div class="grid-item" id="otherButton">
+        <button class="button" id="rollBtn">Roll</button>
+        <button class="button" id="resetBtn">Reset</button>
+      </div>
+    </div>
+    <div class="grid-item" id="computer-pile">
+      Pile
+      <div class="token">
+        <img src="images/btoken.png" width="70" height="90"> X
+        <span id="cbtoken"></span>
+        <br />
+        <img src="images/rtoken.png" width="70" height="90"> X
+        <span id="crtoken"></span>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

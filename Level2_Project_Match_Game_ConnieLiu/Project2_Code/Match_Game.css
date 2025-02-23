@@ -1,0 +1,121 @@
+body {
+  text-align: center;
+  background-image: url('../Project2_Pictures/background.png');
+  background-size: cover;
+  font-family: 'Windlass', sans-serif;
+  color: white;
+  text-shadow: 0 0 10px black;
+  padding-bottom: 20%;
+
+}
+
+
+
+h1 {
+  font-size: 80px;
+  padding: 20px;
+  line-height: 100%;
+
+}
+
+h2 {
+  font-size: 50px;
+  padding: 20px;
+  padding-top: 70px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+
+p {
+  font-size: 25px;
+  line-height: 200%;
+  font-family: 'Cinzel', serif;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+#result {
+  padding: 0px;
+}
+
+#restartGame {
+  border-radius: 10%;
+  background-color: #e3a856; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#restartGame:hover {
+  background-color: white; 
+  color: #e3a856; 
+  border: 2px solid #e3a856;
+}
+
+#question {
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+}
+
+#score {
+  padding-top: 0px;
+  padding: 0px;
+}
+
+#result {
+  word-wrap: break-word;
+}
+
+.instructions {
+  background-image: linear-gradient(60deg, #064354, #207575, #328085, #cc7b2a, #e3a856, #fbefb7);
+  padding: 10px;
+  padding-bottom: 10%;
+
+}
+
+.status {
+  float: left;
+  width: 50%;
+  padding-top: 10%;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.parent-div {
+  float: right;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 50%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.image {
+  width: 130px;
+  height: 190px;
+  object-fit: fill;
+  cursor: pointer;
+  border-radius: 8%;
+  transition: transform .2s;
+
+}
+
+.image:hover {
+  transform: scale(1.2);
+}

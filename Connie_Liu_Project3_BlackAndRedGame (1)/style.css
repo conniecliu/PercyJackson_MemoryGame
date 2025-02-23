@@ -1,0 +1,169 @@
+/*CSS for index.html*/
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  background-image: linear-gradient(black, #350929);
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+  font-family: 'Cheque', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  color: white;
+  border-radius: 20px;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+.topnav a:hover {
+  /* background-color: #947c9c; */
+  color: white;
+  font-weight: bold;
+  transition-duration: 0.4s
+  
+}
+
+.topnav a.active {
+  color: white;
+  font-weight: bold;
+
+}
+
+.centered {
+  text-align: center
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
+}
+
+.container {
+  justify-content: center;
+  position: relative;
+  padding: 3em;
+  border-radius: 30px;
+  background: #deb470;
+}
+
+.button {
+  background-color: #350929;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  padding: 20px 37px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: white;
+  color: #350929;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  background-color: #350929;
+  color: white;
+  cursor: not-allowed;
+  box-shadow: none
+}
+
+
+/*CSS for game.html*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  border-radius: 20px;
+  column-gap: 30px;
+  row-gap: 30px;
+  grid-template-rows: 100px 300px 300px 300px;
+
+}
+
+.grid-item{
+  background-color: #deb470;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.token{
+  text-align: left;
+}
+
+#screen {
+  position: relative;
+  padding: 3em;
+  border-radius: 10px;
+  background: white;
+  color: #350929;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+#user-log {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  overflow-y:auto
+}
+
+#computer-log {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  overflow-y:auto
+}
+
+#choices {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+#otherButton {
+  grid-row-start: 5;
+  grid-column-start: 4;
+}
+
+

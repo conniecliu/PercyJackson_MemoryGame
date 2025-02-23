@@ -1,0 +1,14 @@
+HTML:
+<h1 class = "introduction">Welcome</h1>
+<h1 id = "specific_intro">To the game</h1>
+<h1 class = "introduction">Yipeee</h1>
+CSS:
+.introduction{
+     color: blue;
+}
+#specific_intro{
+     color: red;
+}
+JS:
+const1 = document.getDocumentByID("specific_intro");
+const2 = document.querySelectorAll("introduction");
